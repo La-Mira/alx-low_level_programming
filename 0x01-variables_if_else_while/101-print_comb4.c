@@ -18,16 +18,16 @@ int main(void)
 	{
 		for (m = 0; m <= 8; m++)
 		{
-		for (l = 0; l < 10; l++)
-		{
-		putchar((n % 10) + '0');
-	        putchar((m % 10) + '0');
-	        putchar((l % 10) + '0');
-	        if (n == 7 && m == 8 && l == 9)
-		continue;
-		putchar(',');
-		putchar(' ');
-		}
+			for (l = 0; l < 10; l++)
+			{
+				putchar((n % 10) + '0');
+				putchar((m % 10) + '0');
+				putchar((l % 10) + '0');
+				if (n <  m && l > m);
+				continue;
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
