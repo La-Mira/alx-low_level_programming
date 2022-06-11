@@ -20,17 +20,14 @@ int main(void)
 		{
 			for (l = 0; l < 10; l++)
 			{
+				if (n == 7 && m == 8 && l == 9)
 				putchar((n % 10) + '0');
 				putchar((m % 10) + '0');
 				putchar((l % 10) + '0');
-
-				if (n == 7 && m == 8 && l == 9)
-				{
-					continue;
-
-					putchar(',');
-					putchar(' ');
-				}
+				continue;
+				
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
