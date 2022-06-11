@@ -11,17 +11,16 @@
 
 int main(void)
 {
-	int n = 'a';
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	while ( n <= 'z')
+	for (n = 'a'; n <= 'z'; n++)
 	{
 		if (n != 'q' && n != 'e')
 		{
 			putchar(n);
 		}
-		n++;
 	}
 	putchar('\n');
 	return (0);
