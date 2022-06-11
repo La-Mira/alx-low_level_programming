@@ -4,7 +4,7 @@
 
 /**
  * main - prints all possible combinations of single-digit
- * numbers in ascending order with each number 
+ * numbers in ascending order with each number
  * separated by a , and a space from another
  *
  * Return: Always 0 (Success)
