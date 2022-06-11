@@ -23,10 +23,11 @@ int main(void)
 				putchar((n % 10) + '0');
 				putchar((m % 10) + '0');
 				putchar((l % 10) + '0');
-				if (n <  m && l > m);
+				if (n == 7 && m == 8 && l == 9);
 				continue;
 				putchar(',');
 				putchar(' ');
+				break;
 			}
 		}
 	}
