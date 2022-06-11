@@ -26,11 +26,10 @@ int main(void)
 
 				if (n == 7 && m == 8 && l == 9)
 				{
-					continue;
-
 					putchar(',');
 					putchar(' ');
 				}
+				continue;
 			}
 		}
 	}
