@@ -1,17 +1,11 @@
-#include <unistd.h>
 #include <stdio.h>
-#include <main.h>
-
+#include "main.h"
 
 /**
- * _putchar - writes the character
-int _putchar(char c)
-
-{
-
-		return (write(1, &c, 1));
-
-}
+ * main - prints _putchar, followed by a new line
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
