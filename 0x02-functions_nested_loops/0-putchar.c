@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * main -  prints _putchar, followed by a new line
@@ -8,14 +9,14 @@
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char *str = "_putchar";
+
+	[[un]signed] [long] int i;
+
+	for (i = 0; i < strlen(str); i++)
+	{
+		_putchar(str[i]);
+	}
 	_putchar('\n');
 	return (0);
 }
